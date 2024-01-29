@@ -20,7 +20,7 @@ async def start_msg(client, message):
     
     <i><b>Bot Started {convert_time(time() - BOT_START)} ago...</b></i>
 
-🛃 <b>Use Me Here :</b> https://t.me/+vfF7kOmvLoszZDk1<i>(Bypass Topic)</i>''',
+🛃 <b>Use Me Here :</b> https://t.me/+vfF7kOmvLoszZDk1 <i>(Bypass Topic)</i>''',
         quote=True,
         reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton('🎓 Dev', url='https://t.me/Mrkiller_1109'), InlineKeyboardButton('🔍 Update Channel', url="https://t.me/Hpbot_update")]
