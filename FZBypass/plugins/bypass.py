@@ -18,7 +18,7 @@ from FZBypass.core.bot_utils import AuthChatsTopics, convert_time, BypassFilter
 @Bypass.on_message(command("start"))
 async def start_msg(client, message):
     await message.reply(
-        f"""<b><i>FZ Bypass Bot!</i></b>
+        f"""<b><i>Mrkiller Bypass Bot!</i></b>
     
     <i>A Powerful Elegant Multi Threaded Bot written in Python... which can Bypass Various Shortener Links, Scrape links, and More ... </i>
     
@@ -29,10 +29,10 @@ async def start_msg(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🎓 Dev", url="https://t.me/SilentDemonSD"),
+                    InlineKeyboardButton("🎓 Dev", url="https://t.me/Mrkiller_1109"),
                     InlineKeyboardButton(
-                        "🔍 Deploy Own",
-                        url="https://github.com/SilentDemonSD/FZBypassBot",
+                        "Update Channel 📢",
+                        url="https://t.me/Hpbot_update",
                     ),
                 ]
             ]
@@ -188,7 +188,7 @@ async def inline_query(client, query):
             InlineQueryResultArticle(
                 title="♻️ Bypass Usage: In Line",
                 input_message_content=InputTextMessageContent(
-                    """<b><i>FZ Bypass Bot!</i></b>
+                    """<b><i>Mrkiller Bypass Bot!</i></b>
     
     <i>A Powerful Elegant Multi Threaded Bot written in Python... which can Bypass Various Shortener Links, Scrape links, and More ... </i>
     
@@ -199,7 +199,7 @@ async def inline_query(client, query):
                     [
                         [
                             InlineKeyboardButton(
-                                "FZ Channel", url="https://t.me/FXTorrentz"
+                                "Mrkiller Developer", url="https://t.me/Mrkillerdeveloper"
                             ),
                             InlineKeyboardButton(
                                 "Try Bypass", switch_inline_query_current_chat="!bp "
