@@ -21,7 +21,7 @@ basicConfig(
 )
 load_dotenv("config.env", override=True)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/SilentDemonSD/FZBypassBot")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/harshil8981/FZBypassBot")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 if UPSTREAM_REPO is not None:
